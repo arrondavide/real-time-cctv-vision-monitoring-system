@@ -1,0 +1,63 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Dependency directories
+site-packages/
+dist/
+build/
+*.egg-info/
+
+# Jupyter notebooks
+*.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+temp/
+
+# Large media files (videos, datasets)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+dataset/
+cigarette_dataset/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model weights (if large, avoid committing)
+*.pt
+*.pth
+*.model
+
+# Output files (except specific ones you want to commit)
+output_*.mp4
+alerts_*.log
+
+# Keep specific output files for demo submission
+!output_video.mp4
+!alerts.log
+!demo_final.mp4
+
+*.whl
+*.tar.gz
+pip_cache/
